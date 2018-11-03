@@ -46,7 +46,7 @@ form.addEventListener('submit', (e) => {
                 alert("ลงชื่อเรียบร้อย");
                 window.location.href = "check.html";
             }
-            else if (week == "week02" && week02 == code) {
+            else if (week == "week02" && doc.data().week02[0] == code) {
                 let dt = []
                 dt = doc.data().week02
                 dt.push(std)
